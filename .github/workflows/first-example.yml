@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Welcome Message
-              run: Echo "my first githib actions job"
+              run: echo "my first githib actions job"
             
             - name: List files
               run: ls
